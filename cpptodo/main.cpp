@@ -1,6 +1,7 @@
-#include <iostream>
+#include "./Application.h"
 
 int main() {
-	// kuba ma downa
+	Application application;
+	application.Start();
 	return 0;
 }
